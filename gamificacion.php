@@ -2,15 +2,24 @@
 // Traigo el Vector de Resultados de los jugos
 include("conect_app.php");
 $link = ConectarseExt();
-$ssql = "select p.idorg, o.orgnmb, o.idusuario, max(p.tiempo),p.dinero from partidaestdnr p, t_organizaciones o where o.idorg = p.idorg and p.dinero > 0 group by p.idorg ";
+
+//$ssql = "select p.idorg, o.orgnmb, o.idusuario, max(p.tiempo),p.dinero from partidaestdnr p, t_organizaciones o where o.idorg = p.idorg group by p.idorg ";
+//select estDnrid from partidaestdnr order by dinero group by idorg 
+$ssql = "select p.idorg,  o.orgnmb, o.idusuario, p.tiempo as tmp, max(p.dinero) as dnr from partidaestdnr p, t_organizaciones o where MOD(p.tiempo,6)= 0 and p.dinero > 0 and o.idorg = p.idorg group by p.tiempo, p.idorg order by tmp desc,dnr desc";
 $p = mysqli_query($link,$ssql);
 $ii = 0;
+$ant = '';
 while ($fila = mysqli_fetch_array($p)) {
-	$orgx[$ii] = $fila[1];
-	$usrx[$ii] = $fila[2];
-	$tmpx[$ii] = $fila[3];
-	$dnrx[$ii] = $fila[4];	
-	$ii++;
+	//if ($ant != $fila[1])
+	{
+		$idorgx[$ii] = $fila[0];
+		$orgx[$ii] = $fila[1];
+		$usrx[$ii] = $fila[2];
+		$tmpx[$ii] = $fila[3];
+		$dnrx[$ii] = $fila[4];	
+		$ii++;
+	}
+	$ant = $fila[1];
 }
 //mysqli_close();
 
@@ -123,32 +132,46 @@ function pintarImagen($scc){
 // Empieza la página
 // Traigo el Vector de Resultados de los jugos (arriba)
 // Vector de Resultados
-$ssql = "select c.cmnid, c.cmn, uc.idusr,uc.nombres from comunidades c, usuariosxcomunidad uc where c.cmnid = uc.idcmn ";
+/*$ssql = "select c.cmnid, c.cmn, uc.idusr,uc.nombres from comunidades c, usuariosxcomunidad uc where c.cmnid = uc.idcmn ";
 $p = mysqli_query($link,$ssql);
 $kk = 0;
 while ($fila = mysqli_fetch_array($p)) {
 	//$idcmn = $fila[0];
 	//$idusu = $fila[2];
 	//$juego[$idcmn][$idusu] = $fila[2];
-	$cmny[$kk] = $fila[0];
+	$idcmny[$kk] = $fila[0];
+	$cmny[$kk] = $fila[1];
 	$usry[$kk] = $fila[2];
+	$usrNmby[$kk] = $fila[3];
 	$kk++;
-}
-echo '<table border ="1" width="90%" align="center"><tr><td>Cmn<td>Org<td>Usuario<td>Tiempo<td>Dinero';
+*/
+echo '<table border ="1" width="90%" align="center"><tr><td>#<td>Cmn<td>Cmn<td>IdOrg<td>Org<td>IdUsuario<td>Usuario<td>Tiempo<td>Dinero';
+$fil = 1;
 for ($j=0;$j<$ii;$j++){
-	$k=0;
+	// $ssql = "select p.idorg,  o.orgnmb, o.idusuario, p.tiempo, max(p.dinero) as x from partidaestdnr p, t_organizaciones o where p.dinero > 0 and o.idorg = p.idorg group by p.idorg order by x desc";
+	$ssql = "select c.cmnid, c.cmn, uc.nombres from comunidades c, usuariosxcomunidad uc where c.cmnid = uc.idcmn and uc.idusr = ".$usrx[$j];
+	$p = mysqli_query($link,$ssql);
+	$kk = 0;
+	while ($fila = mysqli_fetch_array($p)) {
+    /*
+	$k=1;
 	// busca dentro de todo el arreglo el nombre de la comunidad de ese usuario
 	while ($k<=$kk){
 		if ($usrx[$j] == $usry[$k]){
+			$idcmn = $idcmny[$k];
 			$cmn = $cmny[$k];
 			$org = $orgx[$j];
 			$tmp = $tmpx[$j];
 			$dnr = $dnrx[$j];
+			$usrNmb = $usrNmby[$k];
 			$k=$kk;
 		}
 		$k++;
-	}	
-	echo '<tr><td>'.$cmn.'<td>'.$org.'<td>'.$usrx[$j].'<td>'.$tmp.'<td>'.$dnr.'</td>';
+	}
+    if ($idcmn > 1) 	*/
+		echo '<tr><td>'.$fil.'<td>'.$fila[0].'<td>'.$fila[1].'<td>'.$idorgx[$j].'<td>'.$orgx[$j].'<td>'.$usrx[$j].'<td>'.$fila[2].'<td>'.$tmpx[$j].'<td>'.$dnrx[$j].'</td>';
+	$fil++;
+	}
 }
 echo '</table>';
 //Otros informes
