@@ -1,4 +1,5 @@
 <?php
+// Permite asignar a un uso una aprtida
 $root = realpath($_SERVER["DOCUMENT_ROOT"]);
 $AppName = "samii/";
 $SystemFolder = $AppName."sistema";
@@ -53,9 +54,13 @@ include "$root//$SystemFolder//funciones//Menu.php";
         <div class="container">
             <h1 style="text-align: center">Asignación de Partidas a Usuarios </h1>
             <div class="col-lg-offset-1 col-lg-10">
-                <form action="asignaPartidas.php"><?php
-                ?>
-				<input type="submit" value="Enviar">
+                <form action="infResumen.php" method="POST">					
+				<table>
+				<tr><td>Id Partida:<td><input type="text" name="txtPrt" value="<?php echo @$_GET["organ"];?>">
+				<tr><td>Id Usuario:<td><input type="text" name="txtUsr">
+				<tr><td>Tutor:<td><input type="text" name="txtTtr">
+				<tr><td colspan="2" align="center"><input type="submit" value="Enviar">
+				
                 
 				</form>
             </div>
