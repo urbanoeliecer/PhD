@@ -1,4 +1,5 @@
 <?php
+// Esta pagina permite ver las g´raficas, tipo git de las actividades
 $root = realpath($_SERVER["DOCUMENT_ROOT"]);
 $AppName = "samii";
 $SystemFolder = $AppName."//sistema";

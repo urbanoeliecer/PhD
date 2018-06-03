@@ -2,10 +2,10 @@
 // Traigo el Vector de Resultados de los jugos
 include("conect_app.php");
 $link = ConectarseExt();
-
 //$ssql = "select p.idorg, o.orgnmb, o.idusuario, max(p.tiempo),p.dinero from partidaestdnr p, t_organizaciones o where o.idorg = p.idorg group by p.idorg ";
 //select estDnrid from partidaestdnr order by dinero group by idorg 
-$ssql = "select p.idorg,  o.orgnmb, o.idusuario, p.tiempo as tmp, max(p.dinero) as dnr from partidaestdnr p, t_organizaciones o where MOD(p.tiempo,6)= 0 and p.dinero > 0 and o.idorg = p.idorg group by p.tiempo, p.idorg order by tmp desc,dnr desc";
+//print $ssql = "select distinct(p.idorg),  o.orgnmb, o.idusuario, p.tiempo as tmp, max(p.dinero) as dnr from partidaestdnr p, t_organizaciones o where MOD(p.tiempo,6)= 0 and p.dinero > 0 and o.idorg = p.idorg group by p.tiempo, p.idorg order by tmp desc,dnr desc";
+$ssql = "select distinct(p.idorg),  o.orgnmb, o.idusuario, max(p.tiempo) as tmp, max(p.dinero) as dnr from partidaestdnr p, t_organizaciones o where p.dinero > 2000000 and o.idorg = p.idorg group by p.idorg order by tmp desc,dnr desc";
 $p = mysqli_query($link,$ssql);
 $ii = 0;
 $ant = '';
@@ -22,8 +22,6 @@ while ($fila = mysqli_fetch_array($p)) {
 	$ant = $fila[1];
 }
 //mysqli_close();
-
-
 $root = realpath($_SERVER["DOCUMENT_ROOT"]);
 $AppName = "samii/";
 $SystemFolder = $AppName."sistema";
@@ -145,11 +143,12 @@ while ($fila = mysqli_fetch_array($p)) {
 	$usrNmby[$kk] = $fila[3];
 	$kk++;
 */
-echo '<table border ="1" width="90%" align="center"><tr><td>#<td>Cmn<td>Cmn<td>IdOrg<td>Org<td>IdUsuario<td>Usuario<td>Tiempo<td>Dinero';
+echo '<div align="center">Top de Resultados';
+echo '<table border ="1" width="90%" align="center"><thead><tr><th><div align="center">#<th><div align="center">Cmn<th><div align="center">Cmn<th><div align="center">IdOrg<th><div align="center">Org<th><div align="center">IdUsuario<th><div align="center">Usuario<th><div align="center">Tiempo<th><div align="center">Dinero</td></thead></tr>';
 $fil = 1;
 for ($j=0;$j<$ii;$j++){
-	// $ssql = "select p.idorg,  o.orgnmb, o.idusuario, p.tiempo, max(p.dinero) as x from partidaestdnr p, t_organizaciones o where p.dinero > 0 and o.idorg = p.idorg group by p.idorg order by x desc";
-	$ssql = "select c.cmnid, c.cmn, uc.nombres from comunidades c, usuariosxcomunidad uc where c.cmnid = uc.idcmn and uc.idusr = ".$usrx[$j];
+	// $ssql = "select distinc(p.idorg),  o.orgnmb, o.idusuario, p.tiempo, max(p.dinero) as x from partidaestdnr p, t_organizaciones o where p.dinero > 0 and o.idorg = p.idorg group by p.idorg order by x desc";
+	$ssql = "select c.cmnid, c.cmn, uc.nombres from comunidades c, usuariosxcomunidad uc where c.cmnid = uc.idcmn and c.cmnid != 1 and uc.idusr = ".$usrx[$j];
 	$p = mysqli_query($link,$ssql);
 	$kk = 0;
 	while ($fila = mysqli_fetch_array($p)) {
@@ -169,14 +168,14 @@ for ($j=0;$j<$ii;$j++){
 		$k++;
 	}
     if ($idcmn > 1) 	*/
-		echo '<tr><td>'.$fil.'<td>'.$fila[0].'<td>'.$fila[1].'<td>'.$idorgx[$j].'<td>'.$orgx[$j].'<td>'.$usrx[$j].'<td>'.$fila[2].'<td>'.$tmpx[$j].'<td>'.$dnrx[$j].'</td>';
+		echo '<tr><td align="center">'.$fil.'<td align="center">'.$fila[0].'<td align="center">'.$fila[1].'<td align="center">'.$idorgx[$j].'<td align="center">'.$orgx[$j].'<td align="center">'.$usrx[$j].'<td align="center">'.$fila[2].'<td align="center">'.$tmpx[$j].'<td align="right">'.number_format($dnrx[$j], 0, ".", ",").'</td>';
 	$fil++;
 	}
 }
 echo '</table>';
 //Otros informes
-echo '<div align="center">';
-echo '<h4>Gamificación</h4>';
+echo '<div align="center"><br>';
+//echo '<h4>Gamificación</h4>';
 echo '<table align="center" width="95%"><tr><td align="center">';
 
 $a = @$_GET["scc"];
@@ -184,7 +183,7 @@ $usr = $_SESSION["IdUsuario"];
 $fch = date("Y-m-d H:i:s");
 // Si no es alguna sesión es porque está enviando algunas respuestas
 if ($a == ''){
-	echo 'Aquí se presenta...';
+	echo 'Top de Preguntas';
 
 	$SQL = 'select prgid, sccid, prg, rspcrr from preguntas ';
 	$link = Conectarse();
@@ -213,7 +212,7 @@ if ($a == ''){
 	}
      
 	$usr = '1';//$prgId[$i] 
-	echo '<table border="1"><tr><td>Sección<td>Pregunta<td>Pregunta<td>Fecha<td>Cantidad<td>Promedio<td>Gráfico</tr>';
+	echo '<table border="1" width="95%"><tr><td align="center">Sección<td align="center">Pregunta<td align="center">Pregunta<td align="center">Fecha<td align="center">Cantidad<td align="center">Promedio<td align="center">Gráfico</tr>';
 	//$SQP = 'select idprueba, fecha, idusuario, pregunta, valor from pruebas where idusuario = '.$usr.'';
 	$SQP = 'select s.scc, e.pregunta, p.prg, e.fecha, count(e.valor), avg(e.valor) from secciones s, pruebas e, preguntas p where s.sccid = p.sccid and p.prgid = e.pregunta ';
 	if ($usr != 1) $SQP .= ' and e.idusuario = '.$usr;
@@ -224,23 +223,23 @@ if ($a == ''){
 	$p = mysqli_query($link,$SQP);
 	while ($fila = mysqli_fetch_array($p)) {
 		$ancho = ($fila[5]*100)/5;
-		echo '<tr><td>';
-		echo $fila[0].'<td>'.$fila[1].'<td>'.$fila[2].'<td>'.$fila[3].'<td>'.$fila[4].'<td>'.$fila[5].'<td><img src="../img/grafica.jpg" width="'.$ancho.'" height="10">';
+		echo '<tr><td align="center">';
+		echo $fila[0].'<td align="center">'.$fila[1].'<td><font size="1">'.$fila[2].'<td align="center">'.$fila[3].'<td align="center">'.$fila[4].'<td align="center">'.$fila[5].'<td><img src="../img/grafica.jpg" width="'.$ancho.'" height="10">';
 	}
 	echo '</table><br>';
-	echo '<table border="1"><tr><td>Usuario<td>Sección<td>Pregunta<td>Pregunta<td>Fecha<td>Cantidad<td>Promedio<td>Gráfico</tr>';
+	echo '<table border="1" width="95%"><tr><td align="center">Usuario<td align="center">Sección<td align="center">Pregunta<td align="center">Pregunta<td align="center">Fecha<td align="center">Cantidad<td align="center">Promedio<td align="center">Gráfico</tr>';
 	//$SQP = 'select idprueba, fecha, idusuario, pregunta, valor from pruebas where idusuario = '.$usr.'';
 	$SQP = 'select s.scc, e.pregunta, e.idusuario, p.prg, e.fecha, count(e.valor), avg(e.valor) from secciones s, pruebas e, preguntas p where s.sccid = p.sccid and p.prgid = e.pregunta ';
 	if ($usr != 1) $SQP .= ' and e.idusuario = '.$usr;
 	$SQP .= ' group by s.scc, e.pregunta, e.idusuario';
 	$SQP .= ' order by e.idusuario, p.sccid, e.pregunta';
-	print $SQP;
+	//print $SQP;
 	$link = Conectarse();
 	$p = mysqli_query($link,$SQP);
 	while ($fila = mysqli_fetch_array($p)) {
 		$ancho = ($fila[6]*100)/5;
-		echo '<tr><td>';
-		echo $fila[2].'<td>'.$fila[0].'<td>'.$fila[1].'<td>'.$fila[3].'<td>'.$fila[4].'<td>'.$fila[5].'<td>'.$fila[6].'<td><img src="../img/grafica.jpg" width="'.$ancho.'" height="10">';
+		echo '<tr><td align="center">';
+		echo $fila[2].'<td align="center">'.$fila[0].'<td align="center">'.$fila[1].'<td><font size="1">'.$fila[3].'<td align="center">'.$fila[4].'<td align="center">'.$fila[5].'<td align="center">'.$fila[6].'<td><img src="../img/grafica.jpg" width="'.$ancho.'" height="10">';
 	}
 	echo '</table>';
 }
