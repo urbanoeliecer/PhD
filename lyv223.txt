@@ -1,0 +1,814 @@
+<juego id="lyv223" usuario="eliecer" segundosPorTurno="40">
+  <tiempo id="1">
+    <comprar vaca="990156" hembra="1" raza="holstein" />
+    <comprar vaca="8684" hembra="1" raza="holstein" />
+    <inseminar vaca="8684" exitoso="True" />
+    <inseminar vaca="990156" exitoso="True" />
+    <comida vaca="8684" cantidad="20" />
+    <comida vaca="990156" cantidad="20" />
+    <agua vaca="8684" cantidad="20" />
+    <agua vaca="990156" cantidad="20" />
+    <estadoFinal dinero="3040000">
+      <estado id="990156" peso="266" sanidad="0,9615385" />
+      <estado id="8684" peso="266" sanidad="0,9615385" />
+    </estadoFinal>
+  </tiempo>
+  <tiempo id="2">
+    <comida vaca="8684" cantidad="22" />
+    <comida vaca="990156" cantidad="22" />
+    <agua vaca="8684" cantidad="22" />
+    <agua vaca="990156" cantidad="22" />
+    <estadoFinal dinero="2716000">
+      <estado id="990156" peso="273" sanidad="0,9504274" />
+      <estado id="8684" peso="273" sanidad="0,9504274" />
+    </estadoFinal>
+  </tiempo>
+  <tiempo id="3">
+    <agua vaca="8684" cantidad="27" />
+    <agua vaca="990156" cantidad="27" />
+    <comida vaca="8684" cantidad="10" />
+    <comida vaca="990156" cantidad="10" />
+    <comida vaca="8684" cantidad="15" />
+    <comida vaca="990156" cantidad="15" />
+    <estadoFinal dinero="2344000">
+      <estado id="990156" peso="282" sanidad="1" />
+      <estado id="8684" peso="282" sanidad="1" />
+    </estadoFinal>
+  </tiempo>
+  <tiempo id="4">
+    <comida vaca="8684" cantidad="10" />
+    <comida vaca="990156" cantidad="10" />
+    <agua vaca="8684" cantidad="26" />
+    <agua vaca="990156" cantidad="26" />
+    <estadoFinal dinero="2068000">
+      <estado id="990156" peso="282" sanidad="1" />
+      <estado id="8684" peso="282" sanidad="1" />
+    </estadoFinal>
+  </tiempo>
+  <tiempo id="5">
+    <comida vaca="8684" cantidad="10" />
+    <comida vaca="990156" cantidad="10" />
+    <agua vaca="8684" cantidad="26" />
+    <agua vaca="990156" cantidad="26" />
+    <estadoFinal dinero="1792000">
+      <estado id="990156" peso="282" sanidad="1" />
+      <estado id="8684" peso="282" sanidad="1" />
+    </estadoFinal>
+  </tiempo>
+  <tiempo id="6">
+    <comida vaca="8684" cantidad="10" />
+    <comida vaca="990156" cantidad="10" />
+    <agua vaca="8684" cantidad="26" />
+    <agua vaca="990156" cantidad="26" />
+    <estadoFinal dinero="1516000">
+      <estado id="990156" peso="282" sanidad="1" />
+      <estado id="8684" peso="282" sanidad="1" />
+    </estadoFinal>
+  </tiempo>
+  <tiempo id="7">
+    <comida vaca="8684" cantidad="10" />
+    <comida vaca="990156" cantidad="10" />
+    <agua vaca="8684" cantidad="26" />
+    <agua vaca="990156" cantidad="26" />
+    <estadoFinal dinero="1240000">
+      <estado id="990156" peso="282" sanidad="1" />
+      <estado id="8684" peso="282" sanidad="1" />
+    </estadoFinal>
+  </tiempo>
+  <tiempo id="8">
+    <comida vaca="8684" cantidad="10" />
+    <comida vaca="990156" cantidad="10" />
+    <agua vaca="8684" cantidad="26" />
+    <agua vaca="990156" cantidad="26" />
+    <estadoFinal dinero="964000">
+      <estado id="990156" peso="282" sanidad="1" />
+      <estado id="8684" peso="282" sanidad="1" />
+    </estadoFinal>
+  </tiempo>
+  <tiempo id="9">
+    <comida vaca="8684" cantidad="10" />
+    <comida vaca="990156" cantidad="10" />
+    <medicina vaca="8684" />
+    <medicina vaca="990156" />
+    <agua vaca="8684" cantidad="26" />
+    <agua vaca="990156" cantidad="26" />
+    <estadoFinal dinero="668000">
+      <estado id="990156" peso="282" sanidad="1" />
+      <estado id="8684" peso="282" sanidad="1" />
+    </estadoFinal>
+  </tiempo>
+  <tiempo id="10">
+    <ordenar vaca="8684" />
+    <ordenar vaca="990156" />
+    <comida vaca="8684" cantidad="10" />
+    <comida vaca="990156" cantidad="10" />
+    <agua vaca="8684" cantidad="26" />
+    <agua vaca="990156" cantidad="26" />
+    <estadoFinal dinero="1332000">
+      <estado id="990156" peso="282" sanidad="1" />
+      <estado id="8684" peso="282" sanidad="1" />
+    </estadoFinal>
+  </tiempo>
+  <tiempo id="11">
+    <ordenar vaca="8684" />
+    <ordenar vaca="990156" />
+    <comida vaca="8684" cantidad="10" />
+    <comida vaca="990156" cantidad="10" />
+    <agua vaca="8684" cantidad="26" />
+    <agua vaca="990156" cantidad="26" />
+    <estadoFinal dinero="1996000">
+      <estado id="990156" peso="282" sanidad="1" />
+      <estado id="8684" peso="282" sanidad="1" />
+    </estadoFinal>
+  </tiempo>
+  <tiempo id="12">
+    <ordenar vaca="8684" />
+    <ordenar vaca="990156" />
+    <comida vaca="8684" cantidad="10" />
+    <comida vaca="990156" cantidad="10" />
+    <agua vaca="8684" cantidad="26" />
+    <agua vaca="990156" cantidad="26" />
+    <estadoFinal dinero="2660000">
+      <estado id="990156" peso="282" sanidad="1" />
+      <estado id="8684" peso="282" sanidad="1" />
+    </estadoFinal>
+  </tiempo>
+  <tiempo id="13">
+    <comprar vaca="770871" hembra="1" raza="holstein" />
+    <comprar vaca="310445" hembra="1" raza="holstein" />
+    <inseminar vaca="310445" exitoso="True" />
+    <inseminar vaca="770871" exitoso="True" />
+    <inseminar vaca="8684" exitoso="True" />
+    <inseminar vaca="990156" exitoso="True" />
+    <ordenar vaca="310445" />
+    <ordenar vaca="770871" />
+    <ordenar vaca="8684" />
+    <ordenar vaca="990156" />
+    <comida vaca="310445" cantidad="10" />
+    <comida vaca="770871" cantidad="10" />
+    <comida vaca="8684" cantidad="10" />
+    <comida vaca="990156" cantidad="10" />
+    <agua vaca="310445" cantidad="26" />
+    <agua vaca="770871" cantidad="26" />
+    <agua vaca="8684" cantidad="26" />
+    <agua vaca="990156" cantidad="26" />
+    <estadoFinal dinero="1288000">
+      <estado id="990156" peso="282" sanidad="1" />
+      <estado id="8684" peso="282" sanidad="1" />
+      <estado id="770871" peso="260" sanidad="1" />
+      <estado id="310445" peso="260" sanidad="1" />
+    </estadoFinal>
+  </tiempo>
+  <tiempo id="14">
+    <ordenar vaca="310445" />
+    <ordenar vaca="770871" />
+    <ordenar vaca="8684" />
+    <ordenar vaca="990156" />
+    <comida vaca="310445" cantidad="10" />
+    <comida vaca="770871" cantidad="10" />
+    <comida vaca="8684" cantidad="10" />
+    <comida vaca="990156" cantidad="10" />
+    <agua vaca="310445" cantidad="26" />
+    <agua vaca="770871" cantidad="26" />
+    <agua vaca="8684" cantidad="26" />
+    <agua vaca="990156" cantidad="26" />
+    <estadoFinal dinero="1676000">
+      <estado id="990156" peso="282" sanidad="1" />
+      <estado id="8684" peso="282" sanidad="1" />
+      <estado id="770871" peso="260" sanidad="1" />
+      <estado id="310445" peso="260" sanidad="1" />
+    </estadoFinal>
+  </tiempo>
+  <tiempo id="15">
+    <ordenar vaca="310445" />
+    <ordenar vaca="770871" />
+    <ordenar vaca="8684" />
+    <ordenar vaca="990156" />
+    <comida vaca="310445" cantidad="10" />
+    <comida vaca="770871" cantidad="10" />
+    <comida vaca="8684" cantidad="10" />
+    <comida vaca="990156" cantidad="10" />
+    <agua vaca="310445" cantidad="26" />
+    <agua vaca="770871" cantidad="26" />
+    <agua vaca="8684" cantidad="26" />
+    <agua vaca="990156" cantidad="26" />
+    <estadoFinal dinero="2064000">
+      <estado id="990156" peso="282" sanidad="1" />
+      <estado id="8684" peso="282" sanidad="1" />
+      <estado id="770871" peso="260" sanidad="1" />
+      <estado id="310445" peso="260" sanidad="1" />
+    </estadoFinal>
+  </tiempo>
+  <tiempo id="16">
+    <comida vaca="310445" cantidad="10" />
+    <comida vaca="770871" cantidad="10" />
+    <comida vaca="8684" cantidad="10" />
+    <comida vaca="990156" cantidad="10" />
+    <agua vaca="310445" cantidad="26" />
+    <agua vaca="770871" cantidad="26" />
+    <agua vaca="8684" cantidad="26" />
+    <agua vaca="990156" cantidad="26" />
+    <ordenar vaca="310445" />
+    <ordenar vaca="770871" />
+    <ordenar vaca="8684" />
+    <ordenar vaca="990156" />
+    <enfermar vaca="770871" />
+    <enfermar vaca="310445" />
+    <estadoFinal dinero="2452000">
+      <estado id="990156" peso="282" sanidad="1" />
+      <estado id="8684" peso="282" sanidad="1" />
+      <estado id="770871" peso="260" sanidad="1" />
+      <estado id="310445" peso="260" sanidad="1" />
+    </estadoFinal>
+  </tiempo>
+  <tiempo id="17">
+    <ordenar vaca="310445" />
+    <ordenar vaca="770871" />
+    <ordenar vaca="8684" />
+    <ordenar vaca="990156" />
+    <comida vaca="310445" cantidad="10" />
+    <comida vaca="770871" cantidad="10" />
+    <comida vaca="8684" cantidad="10" />
+    <comida vaca="990156" cantidad="10" />
+    <agua vaca="310445" cantidad="26" />
+    <agua vaca="770871" cantidad="26" />
+    <agua vaca="8684" cantidad="26" />
+    <agua vaca="990156" cantidad="26" />
+    <medicina vaca="310445" />
+    <medicina vaca="770871" />
+    <estadoFinal dinero="2820000">
+      <estado id="990156" peso="282" sanidad="1" />
+      <estado id="8684" peso="282" sanidad="1" />
+      <estado id="770871" peso="260" sanidad="1" />
+      <estado id="310445" peso="260" sanidad="1" />
+    </estadoFinal>
+  </tiempo>
+  <tiempo id="18">
+    <ordenar vaca="310445" />
+    <ordenar vaca="770871" />
+    <ordenar vaca="8684" />
+    <ordenar vaca="990156" />
+    <comida vaca="310445" cantidad="10" />
+    <comida vaca="770871" cantidad="10" />
+    <comida vaca="8684" cantidad="10" />
+    <comida vaca="990156" cantidad="10" />
+    <agua vaca="310445" cantidad="26" />
+    <agua vaca="770871" cantidad="26" />
+    <agua vaca="8684" cantidad="26" />
+    <agua vaca="990156" cantidad="26" />
+    <estadoFinal dinero="3208000">
+      <estado id="990156" peso="282" sanidad="1" />
+      <estado id="8684" peso="282" sanidad="1" />
+      <estado id="770871" peso="260" sanidad="1" />
+      <estado id="310445" peso="260" sanidad="1" />
+    </estadoFinal>
+  </tiempo>
+  <tiempo id="19">
+    <comida vaca="310445" cantidad="10" />
+    <comida vaca="770871" cantidad="10" />
+    <comida vaca="8684" cantidad="10" />
+    <comida vaca="990156" cantidad="10" />
+    <agua vaca="310445" cantidad="26" />
+    <agua vaca="770871" cantidad="26" />
+    <agua vaca="8684" cantidad="26" />
+    <agua vaca="990156" cantidad="26" />
+    <estadoFinal dinero="2656000">
+      <estado id="990156" peso="282" sanidad="1" />
+      <estado id="8684" peso="282" sanidad="1" />
+      <estado id="770871" peso="260" sanidad="1" />
+      <estado id="310445" peso="260" sanidad="1" />
+    </estadoFinal>
+  </tiempo>
+  <tiempo id="20">
+    <comida vaca="310445" cantidad="10" />
+    <comida vaca="770871" cantidad="10" />
+    <comida vaca="8684" cantidad="10" />
+    <comida vaca="990156" cantidad="10" />
+    <agua vaca="310445" cantidad="26" />
+    <agua vaca="770871" cantidad="26" />
+    <agua vaca="8684" cantidad="26" />
+    <agua vaca="990156" cantidad="26" />
+    <estadoFinal dinero="2104000">
+      <estado id="990156" peso="282" sanidad="1" />
+      <estado id="8684" peso="282" sanidad="1" />
+      <estado id="770871" peso="260" sanidad="1" />
+      <estado id="310445" peso="260" sanidad="1" />
+    </estadoFinal>
+  </tiempo>
+  <tiempo id="21">
+    <ordenar vaca="310445" />
+    <ordenar vaca="770871" />
+    <ordenar vaca="8684" />
+    <ordenar vaca="990156" />
+    <comida vaca="310445" cantidad="10" />
+    <comida vaca="770871" cantidad="10" />
+    <comida vaca="8684" cantidad="10" />
+    <comida vaca="990156" cantidad="10" />
+    <agua vaca="310445" cantidad="26" />
+    <agua vaca="770871" cantidad="26" />
+    <agua vaca="8684" cantidad="26" />
+    <agua vaca="990156" cantidad="26" />
+    <crecer vaca="642132" />
+    <crecer vaca="43498" />
+    <estadoFinal dinero="2492000">
+      <estado id="990156" peso="282" sanidad="1" />
+      <estado id="8684" peso="282" sanidad="1" />
+      <estado id="770871" peso="260" sanidad="1" />
+      <estado id="310445" peso="260" sanidad="1" />
+      <estado id="642132" peso="260" sanidad="1" />
+      <estado id="43498" peso="260" sanidad="1" />
+    </estadoFinal>
+  </tiempo>
+  <tiempo id="22">
+    <vender vaca="43498" />
+    <vender vaca="642132" />
+    <ordenar vaca="310445" />
+    <ordenar vaca="770871" />
+    <ordenar vaca="8684" />
+    <ordenar vaca="990156" />
+    <comida vaca="310445" cantidad="10" />
+    <comida vaca="770871" cantidad="10" />
+    <comida vaca="8684" cantidad="10" />
+    <comida vaca="990156" cantidad="10" />
+    <agua vaca="310445" cantidad="26" />
+    <agua vaca="770871" cantidad="26" />
+    <agua vaca="8684" cantidad="26" />
+    <agua vaca="990156" cantidad="26" />
+    <estadoFinal dinero="5342800">
+      <estado id="990156" peso="282" sanidad="1" />
+      <estado id="8684" peso="282" sanidad="1" />
+      <estado id="770871" peso="260" sanidad="1" />
+      <estado id="310445" peso="260" sanidad="1" />
+    </estadoFinal>
+  </tiempo>
+  <tiempo id="23">
+    <ordenar vaca="310445" />
+    <ordenar vaca="770871" />
+    <ordenar vaca="8684" />
+    <ordenar vaca="990156" />
+    <comida vaca="310445" cantidad="10" />
+    <comida vaca="770871" cantidad="10" />
+    <comida vaca="8684" cantidad="10" />
+    <comida vaca="990156" cantidad="10" />
+    <agua vaca="310445" cantidad="26" />
+    <agua vaca="770871" cantidad="26" />
+    <agua vaca="8684" cantidad="26" />
+    <agua vaca="990156" cantidad="26" />
+    <estadoFinal dinero="6664800">
+      <estado id="990156" peso="282" sanidad="1" />
+      <estado id="8684" peso="282" sanidad="1" />
+      <estado id="770871" peso="260" sanidad="1" />
+      <estado id="310445" peso="260" sanidad="1" />
+    </estadoFinal>
+  </tiempo>
+  <tiempo id="24">
+    <ordenar vaca="310445" />
+    <ordenar vaca="770871" />
+    <ordenar vaca="8684" />
+    <ordenar vaca="990156" />
+    <comida vaca="310445" cantidad="10" />
+    <comida vaca="770871" cantidad="10" />
+    <comida vaca="8684" cantidad="10" />
+    <comida vaca="990156" cantidad="10" />
+    <agua vaca="310445" cantidad="26" />
+    <agua vaca="770871" cantidad="26" />
+    <agua vaca="8684" cantidad="26" />
+    <agua vaca="990156" cantidad="26" />
+    <estadoFinal dinero="7986800">
+      <estado id="990156" peso="282" sanidad="1" />
+      <estado id="8684" peso="282" sanidad="1" />
+      <estado id="770871" peso="260" sanidad="1" />
+      <estado id="310445" peso="260" sanidad="1" />
+    </estadoFinal>
+  </tiempo>
+  <tiempo id="25">
+    <comprar vaca="452333" hembra="1" raza="holstein" />
+    <comprar vaca="687881" hembra="1" raza="holstein" />
+    <comprar vaca="495869" hembra="1" raza="holstein" />
+    <comprar vaca="647445" hembra="1" raza="holstein" />
+    <comprar vaca="700348" hembra="1" raza="holstein" />
+    <comprar vaca="446526" hembra="1" raza="holstein" />
+    <inseminar vaca="446526" exitoso="True" />
+    <inseminar vaca="700348" exitoso="True" />
+    <inseminar vaca="647445" exitoso="True" />
+    <inseminar vaca="495869" exitoso="True" />
+    <inseminar vaca="687881" exitoso="True" />
+    <inseminar vaca="452333" exitoso="True" />
+    <inseminar vaca="310445" exitoso="True" />
+    <inseminar vaca="770871" exitoso="True" />
+    <inseminar vaca="8684" exitoso="True" />
+    <inseminar vaca="990156" exitoso="True" />
+    <ordenar vaca="446526" />
+    <ordenar vaca="700348" />
+    <ordenar vaca="647445" />
+    <ordenar vaca="495869" />
+    <ordenar vaca="687881" />
+    <ordenar vaca="452333" />
+    <ordenar vaca="310445" />
+    <ordenar vaca="770871" />
+    <ordenar vaca="8684" />
+    <ordenar vaca="990156" />
+    <comida vaca="446526" cantidad="10" />
+    <comida vaca="700348" cantidad="10" />
+    <comida vaca="647445" cantidad="10" />
+    <comida vaca="495869" cantidad="10" />
+    <comida vaca="687881" cantidad="10" />
+    <comida vaca="452333" cantidad="10" />
+    <comida vaca="310445" cantidad="10" />
+    <comida vaca="770871" cantidad="10" />
+    <comida vaca="8684" cantidad="10" />
+    <comida vaca="990156" cantidad="10" />
+    <agua vaca="446526" cantidad="26" />
+    <agua vaca="700348" cantidad="26" />
+    <agua vaca="647445" cantidad="26" />
+    <agua vaca="495869" cantidad="26" />
+    <agua vaca="687881" cantidad="26" />
+    <agua vaca="452333" cantidad="26" />
+    <agua vaca="310445" cantidad="26" />
+    <agua vaca="770871" cantidad="26" />
+    <agua vaca="8684" cantidad="26" />
+    <agua vaca="990156" cantidad="26" />
+    <estadoFinal dinero="3300800">
+      <estado id="990156" peso="282" sanidad="1" />
+      <estado id="8684" peso="282" sanidad="1" />
+      <estado id="770871" peso="260" sanidad="1" />
+      <estado id="310445" peso="260" sanidad="1" />
+      <estado id="452333" peso="260" sanidad="1" />
+      <estado id="687881" peso="260" sanidad="1" />
+      <estado id="495869" peso="260" sanidad="1" />
+      <estado id="647445" peso="260" sanidad="1" />
+      <estado id="700348" peso="260" sanidad="1" />
+      <estado id="446526" peso="260" sanidad="1" />
+    </estadoFinal>
+  </tiempo>
+  <tiempo id="26">
+    <ordenar vaca="446526" />
+    <ordenar vaca="700348" />
+    <ordenar vaca="647445" />
+    <ordenar vaca="495869" />
+    <ordenar vaca="687881" />
+    <ordenar vaca="452333" />
+    <ordenar vaca="310445" />
+    <ordenar vaca="770871" />
+    <ordenar vaca="8684" />
+    <ordenar vaca="990156" />
+    <comida vaca="446526" cantidad="10" />
+    <comida vaca="700348" cantidad="10" />
+    <comida vaca="647445" cantidad="10" />
+    <comida vaca="495869" cantidad="10" />
+    <comida vaca="687881" cantidad="10" />
+    <comida vaca="452333" cantidad="10" />
+    <comida vaca="310445" cantidad="10" />
+    <comida vaca="770871" cantidad="10" />
+    <comida vaca="8684" cantidad="10" />
+    <comida vaca="990156" cantidad="10" />
+    <agua vaca="446526" cantidad="26" />
+    <agua vaca="700348" cantidad="26" />
+    <agua vaca="647445" cantidad="26" />
+    <agua vaca="495869" cantidad="26" />
+    <agua vaca="687881" cantidad="26" />
+    <agua vaca="452333" cantidad="26" />
+    <agua vaca="310445" cantidad="26" />
+    <agua vaca="770871" cantidad="26" />
+    <agua vaca="8684" cantidad="26" />
+    <agua vaca="990156" cantidad="26" />
+    <estadoFinal dinero="3794800">
+      <estado id="990156" peso="282" sanidad="1" />
+      <estado id="8684" peso="282" sanidad="1" />
+      <estado id="770871" peso="260" sanidad="1" />
+      <estado id="310445" peso="260" sanidad="1" />
+      <estado id="452333" peso="260" sanidad="1" />
+      <estado id="687881" peso="260" sanidad="1" />
+      <estado id="495869" peso="260" sanidad="1" />
+      <estado id="647445" peso="260" sanidad="1" />
+      <estado id="700348" peso="260" sanidad="1" />
+      <estado id="446526" peso="260" sanidad="1" />
+    </estadoFinal>
+  </tiempo>
+  <tiempo id="27">
+    <ordenar vaca="446526" />
+    <ordenar vaca="700348" />
+    <ordenar vaca="647445" />
+    <ordenar vaca="495869" />
+    <ordenar vaca="687881" />
+    <ordenar vaca="452333" />
+    <ordenar vaca="310445" />
+    <ordenar vaca="770871" />
+    <ordenar vaca="8684" />
+    <ordenar vaca="990156" />
+    <comida vaca="446526" cantidad="10" />
+    <comida vaca="700348" cantidad="10" />
+    <comida vaca="647445" cantidad="10" />
+    <comida vaca="495869" cantidad="10" />
+    <comida vaca="687881" cantidad="10" />
+    <comida vaca="452333" cantidad="10" />
+    <comida vaca="310445" cantidad="10" />
+    <comida vaca="770871" cantidad="10" />
+    <comida vaca="8684" cantidad="10" />
+    <comida vaca="990156" cantidad="10" />
+    <agua vaca="446526" cantidad="26" />
+    <agua vaca="700348" cantidad="26" />
+    <agua vaca="647445" cantidad="26" />
+    <agua vaca="495869" cantidad="26" />
+    <agua vaca="687881" cantidad="26" />
+    <agua vaca="452333" cantidad="26" />
+    <agua vaca="310445" cantidad="26" />
+    <agua vaca="770871" cantidad="26" />
+    <agua vaca="8684" cantidad="26" />
+    <agua vaca="990156" cantidad="26" />
+    <estadoFinal dinero="4288800">
+      <estado id="990156" peso="282" sanidad="1" />
+      <estado id="8684" peso="282" sanidad="1" />
+      <estado id="770871" peso="260" sanidad="1" />
+      <estado id="310445" peso="260" sanidad="1" />
+      <estado id="452333" peso="260" sanidad="1" />
+      <estado id="687881" peso="260" sanidad="1" />
+      <estado id="495869" peso="260" sanidad="1" />
+      <estado id="647445" peso="260" sanidad="1" />
+      <estado id="700348" peso="260" sanidad="1" />
+      <estado id="446526" peso="260" sanidad="1" />
+    </estadoFinal>
+  </tiempo>
+  <tiempo id="28">
+    <comida vaca="446526" cantidad="10" />
+    <comida vaca="700348" cantidad="10" />
+    <comida vaca="647445" cantidad="10" />
+    <comida vaca="495869" cantidad="10" />
+    <comida vaca="687881" cantidad="10" />
+    <comida vaca="452333" cantidad="10" />
+    <comida vaca="310445" cantidad="10" />
+    <comida vaca="770871" cantidad="10" />
+    <comida vaca="8684" cantidad="10" />
+    <comida vaca="990156" cantidad="10" />
+    <agua vaca="446526" cantidad="26" />
+    <agua vaca="700348" cantidad="26" />
+    <agua vaca="647445" cantidad="26" />
+    <agua vaca="495869" cantidad="26" />
+    <agua vaca="687881" cantidad="26" />
+    <agua vaca="452333" cantidad="26" />
+    <agua vaca="310445" cantidad="26" />
+    <agua vaca="770871" cantidad="26" />
+    <agua vaca="8684" cantidad="26" />
+    <agua vaca="990156" cantidad="26" />
+    <estadoFinal dinero="2908800">
+      <estado id="990156" peso="282" sanidad="1" />
+      <estado id="8684" peso="282" sanidad="1" />
+      <estado id="770871" peso="260" sanidad="1" />
+      <estado id="310445" peso="260" sanidad="1" />
+      <estado id="452333" peso="260" sanidad="1" />
+      <estado id="687881" peso="260" sanidad="1" />
+      <estado id="495869" peso="260" sanidad="1" />
+      <estado id="647445" peso="260" sanidad="1" />
+      <estado id="700348" peso="260" sanidad="1" />
+      <estado id="446526" peso="260" sanidad="1" />
+    </estadoFinal>
+  </tiempo>
+  <tiempo id="29">
+    <ordenar vaca="446526" />
+    <ordenar vaca="700348" />
+    <ordenar vaca="647445" />
+    <ordenar vaca="495869" />
+    <ordenar vaca="687881" />
+    <ordenar vaca="452333" />
+    <ordenar vaca="310445" />
+    <ordenar vaca="770871" />
+    <ordenar vaca="8684" />
+    <ordenar vaca="990156" />
+    <comida vaca="446526" cantidad="10" />
+    <comida vaca="700348" cantidad="10" />
+    <comida vaca="647445" cantidad="10" />
+    <comida vaca="495869" cantidad="10" />
+    <comida vaca="687881" cantidad="10" />
+    <comida vaca="452333" cantidad="10" />
+    <comida vaca="310445" cantidad="10" />
+    <comida vaca="770871" cantidad="10" />
+    <comida vaca="8684" cantidad="10" />
+    <comida vaca="990156" cantidad="10" />
+    <agua vaca="446526" cantidad="26" />
+    <agua vaca="700348" cantidad="26" />
+    <agua vaca="647445" cantidad="26" />
+    <agua vaca="495869" cantidad="26" />
+    <agua vaca="687881" cantidad="26" />
+    <agua vaca="452333" cantidad="26" />
+    <agua vaca="310445" cantidad="26" />
+    <agua vaca="770871" cantidad="26" />
+    <agua vaca="8684" cantidad="26" />
+    <agua vaca="990156" cantidad="26" />
+    <estadoFinal dinero="3402800">
+      <estado id="990156" peso="282" sanidad="1" />
+      <estado id="8684" peso="282" sanidad="1" />
+      <estado id="770871" peso="260" sanidad="1" />
+      <estado id="310445" peso="260" sanidad="1" />
+      <estado id="452333" peso="260" sanidad="1" />
+      <estado id="687881" peso="260" sanidad="1" />
+      <estado id="495869" peso="260" sanidad="1" />
+      <estado id="647445" peso="260" sanidad="1" />
+      <estado id="700348" peso="260" sanidad="1" />
+      <estado id="446526" peso="260" sanidad="1" />
+    </estadoFinal>
+  </tiempo>
+  <tiempo id="30">
+    <ordenar vaca="446526" />
+    <ordenar vaca="700348" />
+    <ordenar vaca="647445" />
+    <ordenar vaca="495869" />
+    <ordenar vaca="687881" />
+    <ordenar vaca="452333" />
+    <ordenar vaca="310445" />
+    <ordenar vaca="770871" />
+    <ordenar vaca="8684" />
+    <ordenar vaca="990156" />
+    <comida vaca="446526" cantidad="10" />
+    <comida vaca="700348" cantidad="10" />
+    <comida vaca="647445" cantidad="10" />
+    <comida vaca="495869" cantidad="10" />
+    <comida vaca="687881" cantidad="10" />
+    <comida vaca="452333" cantidad="10" />
+    <comida vaca="310445" cantidad="10" />
+    <comida vaca="770871" cantidad="10" />
+    <comida vaca="8684" cantidad="10" />
+    <comida vaca="990156" cantidad="10" />
+    <agua vaca="446526" cantidad="26" />
+    <agua vaca="700348" cantidad="26" />
+    <agua vaca="647445" cantidad="26" />
+    <agua vaca="495869" cantidad="26" />
+    <agua vaca="687881" cantidad="26" />
+    <agua vaca="452333" cantidad="26" />
+    <agua vaca="310445" cantidad="26" />
+    <agua vaca="770871" cantidad="26" />
+    <agua vaca="8684" cantidad="26" />
+    <agua vaca="990156" cantidad="26" />
+    <estadoFinal dinero="3896800">
+      <estado id="990156" peso="282" sanidad="1" />
+      <estado id="8684" peso="282" sanidad="1" />
+      <estado id="770871" peso="260" sanidad="1" />
+      <estado id="310445" peso="260" sanidad="1" />
+      <estado id="452333" peso="260" sanidad="1" />
+      <estado id="687881" peso="260" sanidad="1" />
+      <estado id="495869" peso="260" sanidad="1" />
+      <estado id="647445" peso="260" sanidad="1" />
+      <estado id="700348" peso="260" sanidad="1" />
+      <estado id="446526" peso="260" sanidad="1" />
+    </estadoFinal>
+  </tiempo>
+  <tiempo id="31">
+    <ordenar vaca="446526" />
+    <ordenar vaca="700348" />
+    <ordenar vaca="647445" />
+    <ordenar vaca="495869" />
+    <ordenar vaca="687881" />
+    <ordenar vaca="452333" />
+    <ordenar vaca="310445" />
+    <ordenar vaca="770871" />
+    <ordenar vaca="8684" />
+    <ordenar vaca="990156" />
+    <comida vaca="446526" cantidad="10" />
+    <comida vaca="700348" cantidad="10" />
+    <comida vaca="647445" cantidad="10" />
+    <comida vaca="495869" cantidad="10" />
+    <comida vaca="687881" cantidad="10" />
+    <comida vaca="452333" cantidad="10" />
+    <comida vaca="310445" cantidad="10" />
+    <comida vaca="770871" cantidad="10" />
+    <comida vaca="8684" cantidad="10" />
+    <comida vaca="990156" cantidad="10" />
+    <agua vaca="446526" cantidad="26" />
+    <agua vaca="700348" cantidad="26" />
+    <agua vaca="647445" cantidad="26" />
+    <agua vaca="495869" cantidad="26" />
+    <agua vaca="687881" cantidad="26" />
+    <agua vaca="452333" cantidad="26" />
+    <agua vaca="310445" cantidad="26" />
+    <agua vaca="770871" cantidad="26" />
+    <agua vaca="8684" cantidad="26" />
+    <agua vaca="990156" cantidad="26" />
+    <estadoFinal dinero="4390800">
+      <estado id="990156" peso="282" sanidad="1" />
+      <estado id="8684" peso="282" sanidad="1" />
+      <estado id="770871" peso="260" sanidad="1" />
+      <estado id="310445" peso="260" sanidad="1" />
+      <estado id="452333" peso="260" sanidad="1" />
+      <estado id="687881" peso="260" sanidad="1" />
+      <estado id="495869" peso="260" sanidad="1" />
+      <estado id="647445" peso="260" sanidad="1" />
+      <estado id="700348" peso="260" sanidad="1" />
+      <estado id="446526" peso="260" sanidad="1" />
+    </estadoFinal>
+  </tiempo>
+  <tiempo id="32">
+    <ordenar vaca="446526" />
+    <ordenar vaca="700348" />
+    <ordenar vaca="647445" />
+    <ordenar vaca="495869" />
+    <ordenar vaca="687881" />
+    <ordenar vaca="452333" />
+    <ordenar vaca="310445" />
+    <ordenar vaca="770871" />
+    <ordenar vaca="8684" />
+    <ordenar vaca="990156" />
+    <comida vaca="446526" cantidad="10" />
+    <comida vaca="700348" cantidad="10" />
+    <comida vaca="647445" cantidad="10" />
+    <comida vaca="495869" cantidad="10" />
+    <comida vaca="687881" cantidad="10" />
+    <comida vaca="452333" cantidad="10" />
+    <comida vaca="310445" cantidad="10" />
+    <comida vaca="770871" cantidad="10" />
+    <comida vaca="8684" cantidad="10" />
+    <comida vaca="990156" cantidad="10" />
+    <agua vaca="446526" cantidad="26" />
+    <agua vaca="700348" cantidad="26" />
+    <agua vaca="647445" cantidad="26" />
+    <agua vaca="495869" cantidad="26" />
+    <agua vaca="687881" cantidad="26" />
+    <agua vaca="452333" cantidad="26" />
+    <agua vaca="310445" cantidad="26" />
+    <agua vaca="770871" cantidad="26" />
+    <agua vaca="8684" cantidad="26" />
+    <agua vaca="990156" cantidad="26" />
+    <estadoFinal dinero="4884800">
+      <estado id="990156" peso="282" sanidad="1" />
+      <estado id="8684" peso="282" sanidad="1" />
+      <estado id="770871" peso="260" sanidad="1" />
+      <estado id="310445" peso="260" sanidad="1" />
+      <estado id="452333" peso="260" sanidad="1" />
+      <estado id="687881" peso="260" sanidad="1" />
+      <estado id="495869" peso="260" sanidad="1" />
+      <estado id="647445" peso="260" sanidad="1" />
+      <estado id="700348" peso="260" sanidad="1" />
+      <estado id="446526" peso="260" sanidad="1" />
+    </estadoFinal>
+  </tiempo>
+  <tiempo id="33">
+    <ordenar vaca="446526" />
+    <ordenar vaca="700348" />
+    <ordenar vaca="647445" />
+    <ordenar vaca="495869" />
+    <ordenar vaca="687881" />
+    <ordenar vaca="452333" />
+    <ordenar vaca="310445" />
+    <ordenar vaca="770871" />
+    <ordenar vaca="8684" />
+    <ordenar vaca="990156" />
+    <comida vaca="446526" cantidad="10" />
+    <comida vaca="700348" cantidad="10" />
+    <comida vaca="647445" cantidad="10" />
+    <comida vaca="495869" cantidad="10" />
+    <comida vaca="687881" cantidad="10" />
+    <comida vaca="452333" cantidad="10" />
+    <comida vaca="310445" cantidad="10" />
+    <comida vaca="770871" cantidad="10" />
+    <comida vaca="8684" cantidad="10" />
+    <comida vaca="990156" cantidad="10" />
+    <agua vaca="446526" cantidad="26" />
+    <agua vaca="700348" cantidad="26" />
+    <agua vaca="647445" cantidad="26" />
+    <agua vaca="495869" cantidad="26" />
+    <agua vaca="687881" cantidad="26" />
+    <agua vaca="452333" cantidad="26" />
+    <agua vaca="310445" cantidad="26" />
+    <agua vaca="770871" cantidad="26" />
+    <agua vaca="8684" cantidad="26" />
+    <agua vaca="990156" cantidad="26" />
+    <crecer vaca="642432" />
+    <crecer vaca="351787" />
+    <crecer vaca="95142" />
+    <crecer vaca="464701" />
+    <estadoFinal dinero="5378800">
+      <estado id="990156" peso="282" sanidad="1" />
+      <estado id="8684" peso="282" sanidad="1" />
+      <estado id="770871" peso="260" sanidad="1" />
+      <estado id="310445" peso="260" sanidad="1" />
+      <estado id="452333" peso="260" sanidad="1" />
+      <estado id="687881" peso="260" sanidad="1" />
+      <estado id="495869" peso="260" sanidad="1" />
+      <estado id="647445" peso="260" sanidad="1" />
+      <estado id="700348" peso="260" sanidad="1" />
+      <estado id="446526" peso="260" sanidad="1" />
+      <estado id="642432" peso="260" sanidad="1" />
+      <estado id="351787" peso="260" sanidad="1" />
+      <estado id="95142" peso="260" sanidad="1" />
+      <estado id="464701" peso="260" sanidad="1" />
+    </estadoFinal>
+  </tiempo>
+  <tiempo id="34">
+    <vender vaca="464701" />
+    <vender vaca="95142" />
+    <vender vaca="351787" />
+    <vender vaca="642432" />
+    <vender vaca="446526" />
+    <vender vaca="700348" />
+    <vender vaca="647445" />
+    <vender vaca="495869" />
+    <vender vaca="687881" />
+    <vender vaca="452333" />
+    <vender vaca="310445" />
+    <vender vaca="770871" />
+    <vender vaca="8684" />
+    <vender vaca="990156" />
+    <estadoFinal dinero="16209760" />
+  </tiempo>
+  <tiempo id="35">
+    <estadoFinal dinero="16209760" />
+  </tiempo>
+</juego>
