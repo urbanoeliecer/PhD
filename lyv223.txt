@@ -1,3 +1,4 @@
+Estaba bien
 <juego id="lyv223" usuario="eliecer" segundosPorTurno="40">
   <tiempo id="1">
     <comprar vaca="990156" hembra="1" raza="holstein" />
