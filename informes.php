@@ -148,7 +148,7 @@ switch ($radOpc){
         print $SQL .= " GROUP BY fecha ";
         break;  
     case 2:
-        $SQL = "SELECT count(*),DATE(fecha),idtipomovimiento FROM t_movimientos where idorg = ".$_SESSION["idorg"];
+        $SQL = "SELECT count(*),DATE(fecha),idtipomovimiento,idanimal FROM t_movimientos where idorg = ".$_SESSION["idorg"];
         if ($radEvn != 10) $SQL .= " and idtipomovimiento = '$radEvn'"; 
         $SQL .= " and fecha >= '".$fecIni."'"; 
         $SQL .= " and fecha <= '".$fecFin."'"; 
@@ -156,6 +156,7 @@ switch ($radOpc){
         $SQL .= " GROUP BY DATE(fecha)";
         if ($radEvn == 10) 
           $SQL .= ",  idtipomovimiento ";
+	  	
     break;
     case 3:
         $SQL = "SELECT count(a.IdTipoAnimal ), t.TipoAnimal FROM t_animales a, t_tiposanimal t WHERE idorg = ".$_SESSION["idorg"];
@@ -163,16 +164,16 @@ switch ($radOpc){
 		$SQL .=" and a.IdTipoAnimal = t.IdTipoAnimal GROUP BY a.IdTipoAnimal order by t.TipoAnimal ";
     break;
     case 4:
-        $SQL = "SELECT cantidad,DATE(fecharegistro) FROM t_movimientos where idorg = ".$_SESSION["idorg"];
+        $SQL = "SELECT cantidad,DATE(fecharegistro),idanimal FROM t_movimientos where idorg = ".$_SESSION["idorg"];
         if ($radEvn != 10) $SQL .= " and idtipomovimiento = '$radEvn'"; 
         $SQL .= " and fecha >= '".$fecIni."'"; 
         $SQL .= " and fecha <= '".$fecFin."'"; 
         if ($incAnm == 1) $SQL .= " and idanimal = '$idanimal' ";
         $SQL .= ' order by fecharegistro asc';
-        //print $SQL;
+        print $SQL;
     break;
     default:
-        $SQL = "SELECT count(a.IdTipoAnimal ), t.descripcion FROM t_animales a, t_tiposanimal t WHERE a.idorg = ".$_SESSION["idorg"];
+        $SQL = "SELECT count(a.IdTipoAnimal), t.descripcion FROM t_animales a, t_tiposanimal t WHERE a.idorg = ".$_SESSION["idorg"];
         $SQL .= " and a.IdTipoAnimal = t.IdTipoAnimal GROUP BY a.IdTipoAnimal ";
 }
 //print $SQL;
@@ -197,7 +198,7 @@ if ($p != ''){
 }
 if ($ancho < 400 && $j > 30) echo '<div align="center"><font color="red">Debe mejorar los criterios</font></div>';
 ?>
-<table border="1" align="center" style="width:350px">
+<br><table border="1" align="center" style="width:350px">
 <?php
 echo '<tr><td colspan="2">Animal:&nbsp;';
 echo '<input type="checkbox" name="incAnm" value ="1" ';
@@ -250,6 +251,7 @@ for ($i=0;$i<$j;$i++){
     if ($radOpc == 3) echo 'bgcolor="'.$colores[$i].'"';
     echo '>'.$cntAnm[$i].'</td>';
     if ($aux[$i] != '') echo '<td align="center">'.$aux[$i];
+	//echo '<td align="center">'.$aux[$i];
 }
 echo '</table>';
 if ($j == 0) echo '<div align="center"><font color="red">Debe seleccionar mejor los criterios o no hay datos</font></div>';
