@@ -1,0 +1,15 @@
+Evaluación del Proyecto: 
+DESARROLLO DE UN SISTEMA PARA LA DETECCIÓN DE MOVIMIENTOS SÍSMICOS USANDO REDES NEURONALES ARTIFICIALES
+
+Por. Urbano E. Gómez Prada
+Abril 16 de 2018
+
+El proyecto es coherente, pertinente y de gran valor en investigación aplicada por involucrar aspectos de la inteligencia artificial con la Ingeniería de Software y el documento es muy bueno.
+
+Como observaciones de forma sugiero tener en cuenta:
+1. Unficar el Presupuesto en cuanto al valor unitario y al valor total, separar lo que aporta la universidad y lo que asumen los autores y cosolidar por ítems algunos aspectos como el de personal
+2. Hacer un adescripción previa a la metodología antes de mencionar las fases, al parecer es un modelo de cascada iterativo o incremental o realimentado.
+3. Porpongo colocar titulos a los antecedente citados y integrar el Marco de Referencia en el Contextual e Histórico y agregar algo del Marco Legal y Tecnológico.
+
+Un gran trabajo, muchos éxitos!
+
