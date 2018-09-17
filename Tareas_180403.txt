@@ -1,0 +1,93 @@
+ (2016). Análisis productivo y reproductivo del ganado bovino de doble propósito de cinco Centros de Servicios Tecnológicos de FEDEGAN Colombia. Editorial Zamorano: Escuela Agrícola Panamericana.
+Connolly, T. C., Boyle, E. A., Hainey, T., Macarthur, E., & Boyle, J. M. (2012). A systematic literature review of empirical evidence on computer games and serious games. Computers and Education, 59, pp. 661-686
+Gros, Begoña (2009). Certezas e interrogantes acerca del uso de los videojuegos para el aprendizaje. En: Comunicación, Nº 7, vol. 1, pp. 251-264.
+Ibarra Vega, Danny Waldir, Dinámica De Sistemas, Una Herramienta Para La Educación Ambiental En Ingeniería. Revista Luna Azul. ISSN: 1909-2474, 2015 vol: 41 fasc: N/A. Págs: 152 - 164, DOI:10.17151/luaz.2015.41.9 
+López Raventós, Cristian. (2016). El videojuego como herramienta educativa. Posibilidades y problemáticas acerca de los serious games. Apertura (Guadalajara, Jal.), 8(1), 00010. Recuperado el 2 de marzo de 2018, de goo.gl/Db3er5
+Meihua Qian, Karen R. Clark. Game-based Learning and 21st century skills: A review of recent research. Computers in Human Behavior. (2016) Volume 63, Pages 50-58, ISSN 0747-5632, https://doi.org/10.1016/j.chb.2016.05.023
+Senge, P. (2006). The Fifth Discipline: The Art & Practice of the Learning Organization. Crown Business.
+Software Ganadero. (2017). Software Ganadero. Recuperado el 28 de marzo de 2018, de https://www.softwareganadero.com
+
+Ambiental
+http://vip.ucaldas.edu.co/lunazul/downloads/Lunazul41_9.pdf
+Bogoña
+https://idus.us.es/xmlui/bitstream/handle/11441/58304/a17_Certezas_e_interrogantes_acerca_del_uso_de%20_los_videojuegos_para_el_aprendizaje.pdf?sequence=1&isAllowed=y
+
+Game Dimensions and Pedagogical Dimensions and Pedagogical in serious game
+Libro de Bogoña
+https://books.google.com.co/books?hl=en&lr=&id=yLnLDAAAQBAJ&oi=fnd&pg=PA402&dq=info:4l_GHeJr1hMJ:scholar.google.com&ots=llP9wPbgot&sig=RHDdEh3P0_cpPQ8n4GSR-z5DIiw&redir_esc=y#v=onepage&q&f=false
+
+Game-based Learning and 21st century skills: A review of recent research
+Author links open overlay panelMeihuaQianKaren R.Clark
+https://www.sciencedirect.com/science/article/pii/S0747563216303491
+
+http://www.scielo.org.mx/scielo.php?pid=S1665-61802016000200010&script=sci_arttext
+TIC
+
+El videojuego como herramienta educativa. Posibilidades y problemáticas acerca de los serious games
+
+The video game as an educational tool. Possibilities and problems about Serious Games
+
+Cristian López Raventós
+
+Towards Teaching Maternal Healthcare and Nutrition in Rural Ethiopia through a Serious Game
+https://dl.acm.org/citation.cfm?id=3131291
+
+Hola Urbano,
+
+
+Ya he hecho revisión de los documentos relacionados en el Factor 1. Algunos documentos que he subido en el drive no estaban en la info presentada por Dirección de Docencia, la encontré en otros lugares, tales como la renovación de registro calificado y en las resoluciones y actos aprobatorios.
+
+
+Alcancé a colaborarte bastante en el tema, inclusive he colocado a mi consideración la ponderación de algunos indicadores, otros no se pueden hasta que no levantes una información faltante que te relaciono a continuación:
+
+
+- No hay en la documentación el Proyecto Educativo del Programa, debes pedirle a Diana la última versión que tenga para poder subirlo en los soportes.
+
+- Debes solicitar a Diana los syllabus de las asignaturas para incluirlos en la documentación, en particular en las características 3. Debes hablar con Diana para valorar el indicador c).
+
+- Para el indicador d) de la característica 3, debes revisar con Diana los estudios sobre requerimientos laborales del entorno.
+
+- Para el indicador h) de la característica 3, debes revisar con Diana la creación del DAPA de los proyectos integradores del programa, y relacionar de ellos cuáles impactan el medio. También para este indicador servirá mucho el DAPA que falta que complementes del FActor 6 de Investigación, asociado a los proyectos de investigación o de semillero que impacten sobre el medio! considero que debes construir un DAPA particular para ellos, con el fin de que responda puntualmente este indicador,
+
+- Para el indicador i) de la característica 3, debes revisar con Diana sobre la existencia de estudios sobre el impacto del programa en la sociedad y en su grupo de referencia profesional o disciplinar. considero en particular que el documento de análisis de grupos focales sirve, por eso lo incluyo, pero debes revisar con Diana qué más podría incluirse.
+
+
+Espero haberte colaborado!! 
+
+La literatura expresa que los VS ofrecen ambientes virtuales en los cualoes los jugadores se enganchan con las actividades de aprendizaje (Connolly, XXXX, 2015) y permiten que apoyan el desarrollo del pensamiento estrategico la toma de decisiones  t habilidades cognitivas (Qian & Clark, 2016). 
+
+Meihua Qian, Karen R. Clark,
+Game-based Learning and 21st century skills: A review of recent research,
+Computers in Human Behavior,
+Volume 63,
+2016,
+Pages 50-58,
+ISSN 0747-5632,
+https://doi.org/10.1016/j.chb.2016.05.023.
+
+López Raventós, Cristian. (2016). El videojuego como herramienta educativa. Posibilidades y problemáticas acerca de los serious games. Apertura (Guadalajara, Jal.), 8(1), 00010. Recuperado en 02 de abril de 2018, de http://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S1665-61802016000200010&lng=es&tlng=es.
+
+López (2016) afirma que los videojuegos son un buen medio para desarrollar otras habilidades y difundir un conocimiento explícito no solo en la educación ba´sica, tambien puede ser usado en el contexto empresarial arpovechandolos para el entrenamiento de determinadas habilidades, la comprensión de procesos complejos en donde  
+las mecánicas de juego apoyan los procesos de aprendizaje a partir de su simulación en la uqe se involucran aspecto de la realidad generando que el jugador se identifique con ella. La inmersión en el problema se da por la cercania que tenga con las reglas y el contexto representado.
+
+en un mundo concreto, con sus reglas que obligan a entender y aprender con los otros jugadores para poder continuar y avanzar
+los jugadores deben generar una estrategia, aprenderla a medida que avanzan en su complejidad y, poco a poco, controlar esas situaciones
+
+El interés del videojuego como herramienta pedagógica estará centrado no tanto en la consecución de victorias o avances, sino en la resolución del problema que presenta el videojuego
+potencia para transmitir conocimientos es más sutil que en otros medios. La capacidad de incitar el proceso enseñanza-aprendizaje va a estar más allá de la narración de una historia o ciertos conceptos
+
+Connolly, T. C., Boyle, E. A., Hainey, T., Macarthur, E., & Boyle, J. M. (2012). A systematic literature review of empirical evidence on computer games and
+serious games. Computers and Education, 59, 661e686.
+
+Se requiere de un modelo de aprendizaje para generar capacidad de adaptación y cambio ante los retos de ambiente externos, complejos y dinámicos (Ibarra, 2015)
+
+Dinámica De Sistemas, Una Herramienta Para La Educación Ambiental En Ingeniería
+Colombia, Revista Luna Azul ISSN: 1909-2474, 2015 vol:41 fasc: N/A págs: 152 - 164, DOI:10.17151/luaz.2015.41.9 
+Autores: IBARRA VEGA, DANNY WALDIR 
+
+Connolly (2012) manifiesta que hay un consenso creciente de que el aprendizaje tiene lugar cuando las personas utilizan los juegos y que además de generar competencias digitales, se puede dar una transferencia de competencias XXXX en contextos formales de aprendizaje, son herramientas que permiten que los participantes experimenten, aprendan de sus errores y adquieran experiencia evitando riesgos o costos que tienen los entornos representados en los juegos. 
+
+Bogona (2009) manifiesta que el objetivo fundamental en los juegos serios es crear entornos de aprendizaje que permitan experimentar con problemas reales a través de videojuegos. Se pretende que el juego sirva para experimentar y probar múltiples soluciones, explorar, descubrir la información y los nuevos conocimientos sin temor a equivocarse, pues en el juego se toman decisiones que no tienen consecuencias en la realidad. Los videojuegos proporcionan un entorno de aprendizaje rico y complejo, pero hay que innovar en las metodologías educativas para poderlos integrar de una forma coherente y adecuada. 
+
+GROS, Begoña (2009). Certezas e interrogantes acerca deluso de los videojuegos para el aprendiza-je. En: Comunicación, nº 7, vol. 1, pp. 251-264.
+
