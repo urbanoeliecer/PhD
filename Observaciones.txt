@@ -1,15 +1,45 @@
-Debe agregar un objetivo específico para establecer estrategias pedagógicas o al menos metodológicas que soportes el Ebook que lo hagan mas coherente con el objetivo general y y algo parecido le pasa a la pregunta pues no tiene la particularidad del Ebook .
-Use un solo verbo en infinitivo en el objetivo general
-No me parece adecuado  el Textro "Descripción" en cada cuadro ya que confunde, el marco que tiene el documento es una guia, recomiendo sacarlo de esos cuadros tan feo
-Elimine esa especie de portada que colocó en el capitulo 2
-La gráfica 1 se ve muy fea con esa cuadricula de fondo
-El titulo de la grafica 2 no coincide con la página en donde está la figura
-La Figura 1 está sin totulo y no fue descrita, solo mencionada, luego aparece el arbol del problema y ahí si la llama figura 1, pero no se puede leer, debe reorganizarla.
-No debe escribir 3° sino Tercero
-algunos subtitulos no están numerados, debe numerarlos todos, por ejemplo: "Beneficios de My StoryBook"
-Mejore la presentación del cronograma
-Agregue uno columna en el presupuesto con los valores asumidos por la institucución ya que aunque no son costos del autor si son costos que se debenrían tener en cuenta en caso de querer replicar el proyecto
-Busque las fuentes de todas las fuentes
-Recomiendo usar el acortador de url para las direcciones web y ponga el mes de consulta en letras y no en numero
+Dirección Moderador: https://ca.bbcollab.com/invite/dcffd61cd64146939b366e064b1b2027
+Dirección Invitado: https://ca.bbcollab.com/guest/f3d016cf9dfc41558280c86ededada06
 
-Estan bien, aunque debe especificar con mas detalle la relación con este proyecto.
+Si, expresa la mejora en los estudiantes, elaboró el análisis del antes y después del proyecto.
+
+Si, presenta las fuentes y la descripción de cada una. Sin embargo, me parece pertinente que enumere los elementos del estado del arte o marco histórico que consideró relevante, en una tabla que resuma lo expresado para cada ítem.
+
+1.	Si, pero requieren de mayor contundencia, sustentadas en las cifras que manifestó en el capítulo de análisis de resultados.
+
+7pdb5r
+
+No creo que esa sea la última versión del documento final de una maestría y revisé los tres que están en la plataforma, no hay orden, ni seguimiento de estándares, considero que es importante que se haga un ajuste serio para la próxima versión, el proyecto puede ser muy bueno, pero yo debo juzgar desde el documento y este tiene muchas debilidades. A continuación, expreso algunas observaciones: 
+1.	La numeración de los títulos (algunos están sin numerar), por ejemplo, en la pág. 12 aparecen 4 títulos, no debería tener dos títulos seguidos si son del mismo nivel.
+2.	Todo el documento debe tener el mismo tipo de letra
+3.	El interlineado no es igual es el documento a veces uno, a veces otros
+4.	El segundo y tercer objetivo específico corresponde a actividades, el tercero y cuatro son muy similares.
+5.	Mejorar la presentación de algunas tablas por el interlineado, la primera fila debe indicar lo que significa cada columna y toda tabla debe tener una descripción y un autor.
+6.	Cronograma y presupuesto en el documento final no se coloca (está mal el que hizo, pero ya no se coloca)
+7.	Presenta el diagnóstico, pero no es contundente al hacer el contraste con los resultados posteriores a la aplicación de la herramienta, a la cual estoy esperando acceder.
+8.	Recomiendo ser más contundente y específico con las conclusiones relacionando cada una con apartados del documento en donde se reportó el resultado.
+9.	Debe unificar el estándar de presentación de las fuentes de información y recomiendo usar el acortador de url para las Web.
+10.	Debe ser más específico en el Impacto dotarlo de mejor capacidad de redacción y conexión entre los títulos con referencias cruzadas, así sean menciones sin la opción que ofrece Word.
+
+PD. Solicité acceso al portal quedo atento a la respuesta.
+
+Pritectos
+DISEÑO DE ACTIVIDADES BASADAS EN TIC COMO APOYO PARA LA ENSEÑANZA EN LA ASIGNATURA DE PROGRAMACIÓN DE SOFTWARE, PARA LOS ESTUDIANTES DE GRAD
+
+DISEÑO E IMPLEMENTACIÓN DE CUADERNOS DIGITALES, PARA EL FORTALECIMIENTO DE LOS NIVELES DE COMPRENSIÓN Y PRODUCCIÓN TEXTUAL DE LOS ESTUDIANTES DE GRADO 5° DE BÁSICA PRIMARIA DE LA INSTITUCIÓN EDUCATIVA VILLA CIELO DE MONTERÍA
+
+
+Impacto del uso de las tecnologías de la información y la comunicación frente al empleo de métodos tradicionales de enseñanza y aprendizaje en el área de matemáticas, en el grado tercero de la I.E.D. José Hugo Enciso del municipio de Anolaima Cundinamarca.
+
+Anteproyectos
+
+
+CREACIÓN DE EBOOK INFANTILES MEDIANTE LA UTILIZACIÓN DEL SOFTWARE EDUCATIVO MYSTORYBOOK PARA FORTALECER LOS AMBIENTES DE APRENDIZAJE EN LA LECTOESCRITURA Y COMPRENSIÓN LECTORA DE LOS ESTUDIANTES DEL GRADO TERCERO DE LA INSTITUCIÓN EDUCATIVA ANACLETO GARCIA DEL MUNICIPIO DE TELLO HUILA -2018.
+Maria Del Pilar Freitte Roa
+
+
+¿Cómo las TIC pueden mejorar la Calidad de vida orientada hacia el humanismo cristiano?
+¿Exprese un ejemplo de TIC en donde haya oportado a la Humanización?
+¿Qué estrategias conoce o ha aplicado para promover la apropiación social de las TIC?
+
+
