@@ -1,0 +1,7 @@
+
+INSERT INTO t_producciondet (idprod, semana, cantidad) VALUES ('4','3','4');
+INSERT INTO t_producciondet (idprod, semana, cantidad) VALUES ('4','4','4');
+INSERT INTO t_producciondet (idprod, semana, cantidad) VALUES ('5','3','8');
+INSERT INTO t_producciondet (idprod, semana, cantidad) VALUES ('5','4','8');
+INSERT INTO t_producciondet (idprod, semana, cantidad) VALUES ('6','3','11');
+INSERT INTO t_producciondet (idprod, semana, cantidad) VALUES ('6','4','11');
