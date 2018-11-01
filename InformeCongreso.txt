@@ -1,0 +1,14 @@
+El evento se realizó en el CTEC () en la provincia de San Carlos, cerca a la ciudad de Villa Quezada
+
+La ponencia muestra 
+
+presentó una propuesta que provee herramientas para el aprendizaje de pequeños productores bovinos para la apropiación de sistemas de información para la toma de decisiones, la cual involucra capacitaciones y talleres aplicados en un proceso de cobertura y complejidad creciente guiado el profesor quien se apoya en un modelo de simulación desarrollado con Dinámica de Sistemas, un juego de mesa, un videojuego serio , implementado en Unity y sus mecánicas obedecen a las ecuaciones del modelo y el DSS soportado en una arquitectura Web. La estrategia permite a los participantes hacer simulaciones sobre diferentes escenarios , en el él, el jugador o aprendiz debe tomar decisiones sobre su finca a partir de los recursos brindados, los cuales se van mejorando a medida que va aumentando su habilidad. Cada decisión que toma es guardada en el DSS para, posteriormente, dar cuenta a preguntas realizadas por el tutor o que el jugador podría hacerse en su sistema real. 
+
+Las principales charlas en que se partici´pó fueron
+
+ a continuación algunas de las imágenes tomadas en el evento
+
+
+
+Las revistas que he analizdo son:
+
