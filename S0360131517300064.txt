@@ -1,0 +1,23 @@
+
+Impact of mobile technology on student attitudes, engagement, and learning,
+Computers & Education,
+Volume 107,
+2017,
+Pages 91-99,
+ISSN 0360-1315,
+https://doi.org/10.1016/j.compedu.2017.01.006.
+(http://www.sciencedirect.com/science/article/pii/S0360131517300064)
+Keywords: Collaborative learning; Mobile technology; Media in education; Student engagement; Pedagogy
+
+
+4	1	1		Hacer trazabilidad al estudio de los elementos
+5	 	 	1	Gestionar usuarios
+6	 	 	1	Gestionar comunidad
+7	 	1	 	Gestionar código de Escenarios
+8	 	 	1	Asignar Partidas a Usuario
+
+
+Integración de modelos de simulación y videojuegos serios para la toma de decisiones en la agroindustria
+Gómez-Prada, U.E.; Orellana-Hernández, ML.; Salinas-Ibáñez, JM.
+Universidad Pontificia Bolivariana; Universidad de Islas Baleares 
+urbano.gomez@upb.edu.co; morellana@unab.edu.co; jesus.salinas@uib.es
