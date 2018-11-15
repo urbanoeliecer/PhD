@@ -1,0 +1,29 @@
+Manizales  Samuel
+Carrisosa	 viterbo
+Florosa        Nelson
+miralindo   Reinaldo
+q	Pedro
+
+insert  into `t_usuarios`(`IdUsuario`,`IdLicencia`,`IdPerfil`,`Usuario`,`Pass`,`Nombre1`,`Nombre2`,`Apellido1`,`Apellido2`,`Documento`,`Estado`,`FincaBase`,`idorg`,`idmovil`,`email`) values (40,1,4,'Samuel','b5cbe9b4741450781482bb790fe4eefb76ac0743075e40fa9fcd0544338a1da1','Samuel','','Plata','',13610126,1,'',40,4,'');
+insert  into `t_usuarios`(`IdUsuario`,`IdLicencia`,`IdPerfil`,`Usuario`,`Pass`,`Nombre1`,`Nombre2`,`Apellido1`,`Apellido2`,`Documento`,`Estado`,`FincaBase`,`idorg`,`idmovil`,`email`) values (41,1,4,'Viterbo','b5cbe9b4741450781482bb790fe4eefb76ac0743075e40fa9fcd0544338a1da1','Viterbo','','Gomez','',19512994,1,'',41,4,'');
+insert  into `t_usuarios`(`IdUsuario`,`IdLicencia`,`IdPerfil`,`Usuario`,`Pass`,`Nombre1`,`Nombre2`,`Apellido1`,`Apellido2`,`Documento`,`Estado`,`FincaBase`,`idorg`,`idmovil`,`email`) values (42,1,4,'Nelson','b5cbe9b4741450781482bb790fe4eefb76ac0743075e40fa9fcd0544338a1da1','Nelson','','Duarte','',17556432,1,'',42,4,'');
+insert  into `t_usuarios`(`IdUsuario`,`IdLicencia`,`IdPerfil`,`Usuario`,`Pass`,`Nombre1`,`Nombre2`,`Apellido1`,`Apellido2`,`Documento`,`Estado`,`FincaBase`,`idorg`,`idmovil`,`email`) values (43,1,4,'Reinaldo','b5cbe9b4741450781482bb790fe4eefb76ac0743075e40fa9fcd0544338a1da1','Reinaldo','','Prada','',16555432,1,'',43,4,''),;
+insert  into `t_usuarios`(`IdUsuario`,`IdLicencia`,`IdPerfil`,`Usuario`,`Pass`,`Nombre1`,`Nombre2`,`Apellido1`,`Apellido2`,`Documento`,`Estado`,`FincaBase`,`idorg`,`idmovil`,`email`) values (44,1,4,'Pedro','b5cbe9b4741450781482bb790fe4eefb76ac0743075e40fa9fcd0544338a1da1','Pedro','','Diaz','',16432121,1,'',44,4,'');
+
+INSERT INTO `t_fincas` (`IdFinca`, `IdMunicipio`, `Finca`, `Descripcion`, `Estado`, `idorg`) VALUES ('40', '2', 'Manizales', NULL, '1', '40');
+INSERT INTO `t_fincas` (`IdFinca`, `IdMunicipio`, `Finca`, `Descripcion`, `Estado`, `idorg`) VALUES ('41', '2', 'Manizales', NULL, '1', '41');
+INSERT INTO `t_fincas` (`IdFinca`, `IdMunicipio`, `Finca`, `Descripcion`, `Estado`, `idorg`) VALUES ('42', '2', 'Manizales', NULL, '1', '42');
+INSERT INTO `t_fincas` (`IdFinca`, `IdMunicipio`, `Finca`, `Descripcion`, `Estado`, `idorg`) VALUES ('43', '2', 'Manizales', NULL, '1', '43');
+INSERT INTO `t_fincas` (`IdFinca`, `IdMunicipio`, `Finca`, `Descripcion`, `Estado`, `idorg`) VALUES ('44', '2', 'Manizales', NULL, '1', '44');
+
+INSERT INTO `t_lotes` (`IdLote`, `IdFinca`, `Lote`, `Estado`, `idorg`) VALUES ('40', '40', 'Doble propósito', '1', '40');
+INSERT INTO `t_lotes` (`IdLote`, `IdFinca`, `Lote`, `Estado`, `idorg`) VALUES ('41', '41', 'Doble propósito', '1', '41');
+INSERT INTO `t_lotes` (`IdLote`, `IdFinca`, `Lote`, `Estado`, `idorg`) VALUES ('42', '42', 'Doble propósito', '1', '42');
+INSERT INTO `t_lotes` (`IdLote`, `IdFinca`, `Lote`, `Estado`, `idorg`) VALUES ('43', '43', 'Doble propósito', '1', '43');
+INSERT INTO `t_lotes` (`IdLote`, `IdFinca`, `Lote`, `Estado`, `idorg`) VALUES ('44', '44', 'Doble propósito', '1', '44');
+
+INSERT INTO `t_terceros` (`IdTercero`, `IdTiposTercero`, `Tercero`, `Documento`, `Telefono`, `Estado`, `idorg`) VALUES ('40', '1', 'NA', '0', '0', '1', '40');
+INSERT INTO `t_terceros` (`IdTercero`, `IdTiposTercero`, `Tercero`, `Documento`, `Telefono`, `Estado`, `idorg`) VALUES ('41', '1', 'NA', '0', '0', '1', '41');
+INSERT INTO `t_terceros` (`IdTercero`, `IdTiposTercero`, `Tercero`, `Documento`, `Telefono`, `Estado`, `idorg`) VALUES ('42', '1', 'NA', '0', '0', '1', '42');
+INSERT INTO `t_terceros` (`IdTercero`, `IdTiposTercero`, `Tercero`, `Documento`, `Telefono`, `Estado`, `idorg`) VALUES ('43', '1', 'NA', '0', '0', '1', '43');
+INSERT INTO `t_terceros` (`IdTercero`, `IdTiposTercero`, `Tercero`, `Documento`, `Telefono`, `Estado`, `idorg`) VALUES ('44', '1', 'NA', '0', '0', '1', '44');
